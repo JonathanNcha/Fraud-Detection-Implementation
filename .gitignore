@@ -1,0 +1,35 @@
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Data folders (raw + processed should not go to git)
+data/raw/*
+data/processed/*
+
+# Model weights & serialized files
+models/*
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Reports (figures and tables generated automatically)
+reports/figures/*
+reports/tables/*
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
