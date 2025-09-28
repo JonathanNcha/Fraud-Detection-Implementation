@@ -1,40 +1,25 @@
-# Core Python libraries
+# Python libraries
 numpy
 pandas
 scipy
-
-# Visualization
 matplotlib
 seaborn
 plotly
-
-# Machine Learning
 scikit-learn
 xgboost
 lightgbm
-imblearn   # for SMOTE and other imbalance techniques
-
-# Deep Learning
+imblearn
 tensorflow
 torch
 torchvision
 torchaudio
-
-# Explainable AI (XAI)
-shap
-lime
-
-# Experiment tracking & config
 pyyaml
 jsonschema
-
-# Jupyter
 notebook
 jupyterlab
 ipykernel
-
-# Optional but useful
-tqdm        # progress bars
-joblib      # model persistence
-
+tqdm
+joblib
 kaggle
+pyarrow
+fastparquet
